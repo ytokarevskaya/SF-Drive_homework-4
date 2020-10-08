@@ -1,13 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Module 17 homework</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>О нас</title>
 </head>
 
 <body>
+    <header>
+        <div id="logo_link" class="logo_link">
+            <a 
+                href="index.html"
+                aria-label="Главная страница сервиса SkillDrive">
+                SkillDrive</a>
+        </div>
 
+        <nav id="navbar_menu">
+            <ul class="menu">
+                <li class="navbar_item">
+                    <span class="navbar_link">О нас</span>
+                </li>
+                <li class="navbar_item">
+                    <a href="terms.html" class="navbar_link">Условия</a>
+                </li>
+                <li class="navbar_item">
+                    <a href="faq.html" class="navbar_link">Частые вопросы</a>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="button_login">Войти</button>
+    </header>
+
+    <main>
+        <section id="about">
+            <img class="top_image" src="svg/undraw_team_spirit_hrr4 1.svg" alt="Иллюстрация - команда" aria-hidden="true" />
+
+            <h1>О нас</h1>
+
+            <p class="text_main">Это учебный проект, созданный с целью получения боевого опыта в разработке настоящего живого веб-приложения. Этот сервис имитирует работу каршеринга, в котором можно не только арендовать автомобили, но и сдавать их в аренду.</p>
+        </section>
+
+        <section id="contacts">
+
+            <h2>Контакты</h2>
+
+            <div id="email">
+                <p>Электронная почта</p>
+                <p>drive@skillfactory.com</p>
+            </div>
+            <div id="phone">
+                <p>Телефон</p>
+                <p>+7 912 123-45-67</p>
+            </div>
+
+        </section>
+
+        <section id="team">
+            <div class="team_member">
+                <img src="img/about_ivanov.jpg" alt="Иван Иванов фото" />
+                <p class="name">Иван Иванов</p>
+                <p class="role">CEO</p>
+            </div>
+            <div class="team_member">
+                <img src="img/about_smirnov.jpg" alt="Алексей Смирнов фото" />
+                <p class="name">Алексей Смирнов</p>
+                <p class="role">Frontend-разработчик</p>
+            </div>
+            <div class="team_member">
+                <img src="img/about_yartsev.jpg" alt="Денис Ярцев фото" />
+                <p class="name">Денис Ярцев</p>
+                <p class="role">Backend-разработчик</p>
+            </div>
+            <div class="team_member">
+                <img src="img/about_morozov.jpg" alt="Николай Морозов фото" />
+                <p class="name">Николай Морозов</p>
+                <p class="role">Дизайнер</p>
+            </div>
+            <div class="team_member">
+                <img src="img/about_deyeva.jpg" alt="Ирина Деева фото" />
+                <p class="name">Ирина Деева</p>
+                <p class="role">Копирайтер</p>
+            </div>
+            <div class="team_member">
+                <img src="img/about_strelkova.jpg" alt="Мария Стрелкова фото" />
+                <p class="name">Мария Стрелкова</p>
+                <p class="role">SMM</p>
+            </div>
+            
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="copyright">© SkillDrive Inc. 2020</div>
+        <nav class="social_bar">
+            <ul class="menu">
+                <li class="social_icon">
+                    <a href="https://vk.com" target="_blank" class="social_link"><img src="svg/vk.svg" alt="ВКонтакте" aria-label="Переход на страницу SkillDrive в ВКонтакте"></a>
+                </li>
+                <li class="social_icon">
+                    <a href="https://instagram.com" target="_blank" class="social_link"><img src="svg/instagram.svg" alt="Instagram" aria-label="Переход на страницу SkillDrive в Инстаграм"></a>
+                </li>
+                <li class="social_icon">
+                    <a href="https://facebook.com" target="_blank" class="social_link"><img src="svg/facebook.svg" alt="Facebook" aria-label="Переход на страницу SkillDrive в Фейсбук"></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 
 
 </body>
