@@ -200,9 +200,14 @@ h2 {
     text-align: center;
 }
 
+.team_photo {
+    border-radius: 100%;
+}
+
 .name {
     font-size: 20px;
 }
+
 .role {
     font-size: 14px;
     color: #828282;
