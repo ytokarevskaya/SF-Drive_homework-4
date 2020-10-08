@@ -9,28 +9,31 @@
 
 <body>
     <header>
-        <div id="logo_link" class="logo_link">
+        <div id="logo_link">
             <a 
                 href="index.html"
+                class="logo_link"
                 aria-label="Главная страница сервиса SkillDrive">
                 SkillDrive</a>
         </div>
 
-        <nav id="navbar_menu">
-            <ul class="menu">
-                <li class="navbar_item">
-                    <span class="navbar_link">О нас</span>
-                </li>
-                <li class="navbar_item">
-                    <a href="terms.html" class="navbar_link">Условия</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="faq.html" class="navbar_link">Частые вопросы</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <nav id="navbar_menu">
+                <ul class="menu">
+                    <li class="navbar_item">
+                        <span class="navbar_link">О нас</span>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="terms.html" class="navbar_link">Условия</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="faq.html" class="navbar_link">Частые вопросы</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <button class="button_login">Войти</button>
+            <button class="button_login" onclick="">Войти</button>
+        </div>
     </header>
 
     <main>
@@ -58,6 +61,9 @@
         </section>
 
         <section id="team">
+
+            <h2>Команда</h2>
+
             <div class="team_member">
                 <img src="img/about_ivanov.jpg" alt="Иван Иванов фото" />
                 <p class="name">Иван Иванов</p>
