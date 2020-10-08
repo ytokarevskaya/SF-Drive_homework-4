@@ -102,6 +102,10 @@ main {
 
 footer {
     background: #3F3D56;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 40px;
 }
 
 .logo_link {
@@ -141,6 +145,10 @@ ul.menu li {
     opacity: 40%;
 }
 
+#about {
+    padding: 80px;
+}
+
 h1 {
     margin-top: 60px;
     font-size: 64px;
@@ -148,11 +156,42 @@ h1 {
 
 .text_main {
     font-size: 24px;
+    width: 70%;
+    margin: auto;
 }
 
 h2 {
-    margin-top: 80px;
     font-size: 48px;
+}
+
+#contacts {
+    background: #F7F9FB;
+    padding: 80px;
+}
+
+.contact_details {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.contacts_item {
+    margin: 40px 70px;
+}
+
+.contact_type {
+    color: #4F4F4F;
+    font-size: 14px;
+}
+
+.contact_info {
+    color: #000000;
+    font-size: 20px;
+}
+
+.team {
+    width: 80%;
+    margin: 80px auto 120px;
 }
 
 .team_member {
@@ -167,22 +206,6 @@ h2 {
 .role {
     font-size: 14px;
     color: #828282;
-
-}
-
-#contacts {
-    background: #F7F9FB;
-    padding: 80px auto;
-}
-
-.contact_details {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-}
-
-.contacts_item {
-    margin: 40px 70px;
 }
 
 .copyright {
